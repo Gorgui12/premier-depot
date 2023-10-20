@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+           body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url(images/backgroud.jpg)
+            no-repeat center center fixed;
+           height: 100vh;
+           background-size: cover;
+           display: flex;             
+           justify-content: center;
+           align-items: center;
+           }
+           .login-contrainer{
+            background: url(images/backgroud.jpg);
+            padding: 30px;
+            border-radius:  18px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+             width: 300px;
+             text-align: center;
+           }
+           .login-contrainer h2{
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color:blue;
+           }
+           .login-contrainer input{
+            width: 90%;
+            padding: 5px;
+            margin-bottom: 18px;
+            border: 1px solid black;
+            border-radius: 5px;
+           }
+           .login-contrainer button{
+            background-color: blue;
+            color:white ;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;  
+           }
+           .login-contrainer button:hover{
+            background-color: red ;
+           }
+           @media(max-width: 400px){
+            .login-contrainer{
+                width:80px;
+            }
+          } 
+ </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="autre.html"></a></li>
+            <li><a href="exo.html"></a></li>
+            <li><a href="index.html"></a></li>
+            <li><a href="javascript.html"></a></li>
+        </ul>
+    </div>
+    <div class="login-contrainer">
+        <h2>login</h2>
+        <form action="">
+            <input type="text" placeholder="username" required>
+            <input type="Password" placeholder="password" required>
+            <button type="submit">login</button>
+        </form>
+    </div>
+
+</body>
+</html>
